@@ -1,0 +1,28 @@
+
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu, i {
+    margin: 0;
+    padding: 0;
+}
+
+body, textarea, input, button, select, keygen, legend {
+    font-size: 14px;
+    line-height: 1.14;
+    font-family: "Microsoft YaHei", 微软雅黑, Tahoma, "Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Microsoft Yahei", Simhei, sans-serif;
+    color: #333;
+    /* 焦点框 */
+    outline: 0;
+}
+
+a {
+    color: #333;
+}
+
+del, ins, u, s, a, a:hover {
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+i, cite, em, var, address, dfn {
+    font-style: normal;
+}

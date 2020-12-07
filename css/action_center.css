@@ -1,0 +1,485 @@
+.bigbox {
+    min-width: 1684px;
+    max-width: 1920px;
+    height: 1052px;
+    margin: 0 auto;
+    position: relative;
+    background: url(../images/action_center/bg.jpg) no-repeat top;
+}
+
+.main {
+    margin: 0 auto;
+    position: relative;
+    width: 1536px;
+    height: 764px;
+    padding-top: 286px;
+}
+
+.head_logo {
+    position: absolute;
+    left: 230px;
+    top: 107px;
+}
+
+.position {
+    position: absolute;
+    top: 141px;
+    right: 130px;
+    width: 309px;
+    height: 85px;
+    color: #333;
+    z-index: 1;
+}
+
+.position .p1 {
+    line-height: 85px;
+}
+
+.position .activityLink, .position .homeLink {
+    width: 85px;
+    height: 85px;
+    line-height: 85px;
+    display: inline-block;
+    text-align: center;
+    color: #333;
+    background: url(../images/action_center/菱形框.png) no-repeat -10px -95px;
+}
+
+.position hr {
+    display: inline-block;
+    width: 44px;
+    border: 1px dashed #b09f73;
+    vertical-align: middle;
+}
+
+.position .activityLink, .position .homeLink:hover {
+    background-position: -97px -95px;
+    color: #b09f73;
+}
+
+.left {
+    width: 150px;
+    float: left;
+    margin-left: 220px;
+}
+
+.left a {
+    display: block;
+    height: 76px;
+    border: 1px solid #b09f73;
+    line-height: 76px;
+    text-align: center;
+    margin-left: 34px;
+    color: #b09f73;
+    margin-bottom: 19px;
+}
+
+.left .active {
+    background: #b09f73;
+    border-color: #b09f73;
+    color: #fff;
+}
+
+.mainlist1 {
+    display: block;
+    width: 1122px;
+    height: 600px;
+    float: right;
+    position: relative;
+}
+
+.activityItem {
+    top: 150px;
+    left: 328px;
+    width: 309px;
+    height: 270px;
+    overflow: hidden;
+    text-align: left;
+    border: 1px solid #898989;
+    background: #1c1c1c;
+    position: absolute;
+}
+
+.activityItem .img {
+    position: relative;
+}
+
+.mainlist1 .activityItem .expiry {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: inline-block;
+    padding-left: 9px;
+    background: #E46925;
+    height: 34px;
+    width: 37px;
+    line-height: 34px;
+    color: #fff;
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.activityItem .text {
+    padding: 21px 31px;
+}
+
+.activityItem .title {
+    color: #b09f73;
+    font-size: 16px;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.activityItem .time {
+    color: #fff;
+    margin-top: 5px;
+}
+
+.activityItem hr {
+    border-color: #4e4e4e;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.activityItem .intro {
+    color: #c3c3c3;
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.activityItem .overlayer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 100%;
+    background: hsla(43, 28%, 57%, .9);
+    /* 背景颜色透明度 */
+}
+
+.activityItem .overlayer, .mainlist1 .activityItem:hover .overlayer .more {
+    transition: all .5s;
+    -moz-transition: all .5s;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.activityItem .overlayer a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.activityItem .overlayer .more {
+    width: 73px;
+    height: 73px;
+    background: url(../images/action_center/十字.png) no-repeat;
+    display: block;
+    position: absolute;
+    margin-left: -36px;
+    margin-top: -36px;
+    left: 50%;
+    top: 50%;
+}
+
+.activityItem .overlayer .p {
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 202px;
+    font-size: 16px;
+}
+
+.activityItem:hover .overlayer .more {
+    transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg)
+}
+
+.activityItem:hover .overlayer {
+    top: 0;
+}
+
+.mainlist2 {
+    display: none;
+    width: 1122px;
+    height: 600px;
+    float: right;
+    position: relative;
+}
+
+.mainlist2 .activityItem .expiry {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: inline-block;
+    padding-left: 9px;
+    background: #848484;
+    height: 34px;
+    width: 50px;
+    line-height: 34px;
+    color: #fff;
+    margin: 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.mainlist3 {
+    display: none;
+    width: 1122px;
+    height: 600px;
+    float: right;
+    position: relative;
+}
+
+.mainlist3 .versionsItem {
+    width: 309px;
+    height: 173px;
+    top: 150px;
+    left: 328px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #898989;
+    background: #1c1c1c;
+    position: absolute;
+}
+
+.mainlist3 .versionsItem .title {
+    padding-top: 18px;
+    color: #b09f73;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.mainlist3 .versionsItem .expiry {
+    position: absolute;
+    bottom: 60px;
+    right: 10px;
+    display: inline-block;
+    padding-left: 9px;
+    background: #E46925;
+    height: 34px;
+    line-height: 34px;
+    color: #fff;
+    margin: 0;
+}
+
+/*         动画           */
+
+.run1 {
+    animation: run1 0.5s linear 1;
+    animation-fill-mode: forwards;
+}
+
+.run2 {
+    animation: run2 0.5s linear 1;
+    animation-fill-mode: forwards;
+}
+
+.run3 {
+    animation: run3 0.5s linear 1;
+    animation-fill-mode: forwards;
+}
+
+.run4 {
+    animation: run4 0.5s linear 1;
+    animation-fill-mode: forwards;
+}
+
+.run5 {
+    animation: run5 0.5s linear 1;
+    animation-fill-mode: forwards;
+}
+
+.run6 {
+    animation: run6 0.5s linear 1;
+    animation-fill-mode: forwards;
+}
+
+/* 往期版本专题后三个 */
+
+.run44 {
+    animation: run44 0.5s linear 1;
+    animation-fill-mode: forwards;
+}
+
+.run55 {
+    animation: run55 0.5s linear 1;
+    animation-fill-mode: forwards;
+}
+
+.run66 {
+    animation: run66 0.5s linear 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes run1 {
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+    100% {
+        transform: translateX(-328px) translateY(-150px);
+    }
+}
+
+@keyframes run2 {
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+    100% {
+        transform: translateX(0px) translateY(-150px);
+    }
+}
+
+@keyframes run3 {
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+    100% {
+        transform: translateX(328px) translateY(-150px);
+    }
+}
+
+@keyframes run4 {
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+    100% {
+        transform: translateX(-328px) translateY(150px);
+    }
+}
+
+@keyframes run5 {
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+    100% {
+        transform: translateX(0px) translateY(150px);
+    }
+}
+
+@keyframes run6 {
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+    100% {
+        transform: translateX(328px) translateY(150px);
+    }
+}
+
+/* 往期版本专题后三个 */
+
+@keyframes run44 {
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+    100% {
+        transform: translateX(-328px) translateY(42px);
+    }
+}
+
+@keyframes run55 {
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+    100% {
+        transform: translateX(0px) translateY(42px);
+    }
+}
+
+@keyframes run66 {
+    0% {
+        transform: translateX(0px) translateY(0px);
+    }
+    100% {
+        transform: translateX(328px) translateY(42px);
+    }
+}
+
+/* 换页 */
+
+.pagebox {
+    padding-left: 420px;
+    padding-right: 150px;
+}
+
+.page {
+    text-align: center;
+}
+
+.page a, .page span {
+    color: #333;
+    margin-right: 10px;
+}
+
+.page span.current {
+    color: #b09f73;
+}
+
+/* 浮窗 */
+
+.share {
+    width: 39px;
+    height: 218px;
+    position: absolute;
+    background: #fff;
+    border: 1px solid #b09f73;
+    top: 374px;
+    right: 108px;
+}
+
+.share .title {
+    background: url(../images/action_center/share.png) no-repeat -16px -15px;
+    width: 100%;
+    height: 84px;
+}
+
+.share .shareCnt {
+    padding-bottom: 14px;
+    padding-top: 9px;
+}
+
+.share .shareBtn {
+    width: 100%;
+    height: 28px;
+    background: url(../images/action_center/share.png) no-repeat;
+    display: block;
+}
+
+.share .shareBtn-1 {
+    background-position: -16px -112px;
+}
+
+.share .shareBtn-2 {
+    background-position: -16px -140px;
+}
+
+.share .shareBtn-3 {
+    background-position: -16px -168px;
+}
+
+.share .shareBtn-5 {
+    background-position: -16px -220px;
+}
+
+.share .shareBtn-1:hover {
+    background-position: -65px -112px;
+}
+
+.share .shareBtn-2:hover {
+    background-position: -65px -140px;
+}
+
+.share .shareBtn-3:hover {
+    background-position: -65px -168px;
+}
+
+.share .shareBtn-5:hover {
+    background-position: -65px -220px;
+}
